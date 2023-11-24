@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 1rem;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	max-width: 1330px;
+	margin: 0 auto;
+	background-color: #101010;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+
+}
+
+.menu li{
+	margin-left: 70px;
+}
+
+.menu li a{
+	color: white; text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FA4A0C;
+}
+
+.name{
+	color: white; 
+}
+
+.hobby{
+	margin-left: 150px;
+	margin-right: 90px;
+}
+
+.hobby h2{
+	color: blue;
+	font-size: 28px;
+}
+
+.content{
+	display: flex;
+}
+
+.content p{
+	margin-left: 25px;
+}
+
+
+.contacts{
+	text-align: center;
+}
+
+.about{
+	margin-left: 150px;
+	margin-right: 90px;
+}
+
+.content_about{
+	display: flex;
+}
+
+.content_about p{
+	margin-left: 25px;
+}
+
+.content_about img{
+	width: 200;
+	height: 400;
+}
